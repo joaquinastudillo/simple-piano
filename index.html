@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container">
+
+            <h1 class="title is-1 is-centered">Simple Piano</h1>
+
+            <div class="columns">
+                <div class="column is-one-quarter">
+                    <div data-key="65" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>A</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    CLAP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div data-key="83" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>S</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    HIHAT
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div data-key="68" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>D</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    KICK
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div data-key="70" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>F</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    OPENHAT
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-one-quarter">
+                    <div data-key="71" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>G</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    BOOM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div data-key="72" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>H</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    RIDE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div data-key="74" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>J</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    SNARE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div data-key="75" class="card">
+                        <div class="card-content">
+                            <div class="media-content">
+                                <p class="title is-size-4">
+                                    <kbd>K</kbd>
+                                </p>
+                                <p class="subtitle is-size-6">
+                                    TOM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
